@@ -1,0 +1,21 @@
+
+
+let repoSchema = mongoose.Schema({
+  review_id: Number,
+  product_id: Number,
+  summary: String,
+  rating: Number,
+  recommend: Boolean,
+  email: String,
+  body: String,
+  date_posted: Date,
+  reviewer_name: String,
+  photos: Array,
+  characteristics: ObjectId,
+  reported: Boolean,
+  product_id: Number,
+  helpfulness: ObjectId,
+  ratings: ObjectId,
+  recommended: ObjectId,
+  characteristics: ObjectId
+});

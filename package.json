@@ -1,0 +1,27 @@
+{
+  "name": "sdc_nickknowles_reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Index_Reviews.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "postgres": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickknowles1/SDC_NickKnowles_Reviews.git"
+  },
+  "author": "Nick Knowles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickknowles1/SDC_NickKnowles_Reviews/issues"
+  },
+  "homepage": "https://github.com/nickknowles1/SDC_NickKnowles_Reviews#readme"
+}
