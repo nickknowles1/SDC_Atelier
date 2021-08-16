@@ -3,33 +3,26 @@ CREATE DATATBASE if not exists sdc_reviews;
 \c sdc_reviews;
 
 CREATE TABLE characteristic_reviews (
-  id integer,
+  id serial primary key,
   characteristic_id integer,
   review_id integer,
   value smallint
 );
 
 CREATE TABLE characteristics (
-  id integer,
+  id serial primary key,
   product_id integer,
   name varchar
 );
 
-CREATE TABLE features (
-  id integer,
-  product_id integer,
-  feature varchar,
-  value varchar
-);
-
 CREATE TABLE reviews_photos (
-  id integer,
+  id serial primary key,
   review_id integer,
   url varchar
 );
 
 CREATE TABLE reviews (
-  id integer,
+  id serial primary key,
   product_id integer,
   rating smallint,
   date varchar,
@@ -67,5 +60,12 @@ CREATE TABLE reviews (
 --   recommended json,
 --   characteristics json,
 --   PRIMARY KEY (product_id)
+-- );
+
+-- CREATE TABLE features (
+--   id integer,
+--   product_id integer,
+--   feature varchar,
+--   value varchar
 -- );
 
