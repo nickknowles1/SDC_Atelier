@@ -10,15 +10,18 @@
     "pg": "^8.7.1",
     "postgres": "^1.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
   "scripts": {
-    "test": "npm run test"
+    "test": "test",
+    "start": "nodemon Index_Reviews.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nickknowles1/SDC_NickKnowles_Reviews.git"
   },
-  "author": "Nick Knowles",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nickknowles1/SDC_NickKnowles_Reviews/issues"
