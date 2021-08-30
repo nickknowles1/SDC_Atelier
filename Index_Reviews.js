@@ -5,7 +5,7 @@ const axios = require('axios');
 const db = require('./database.js');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
